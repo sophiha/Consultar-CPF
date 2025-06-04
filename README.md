@@ -18,6 +18,23 @@ Um sistema de consulta de CPF ou Nome direto pelo Discord. Rápido, fácil e tot
 
 ---
 
+## 🔧 Como usar a API
+
+Para realizar consultas, utilize os seguintes endpoints:
+
+**Consulta por Nome**
+
+```
+GET http:/18.230.70.34/?tipo=nome&valor=maria&key=CHAVE
+GET http:/18.230.70.34/?tipo=nome&valor=maria&idade=100&key=CHAVE (idade é opcional)
+```
+
+**Consulta por CPF**
+
+```
+GET http:/18.230.70.34/?tipo=cpf&valor=12345678910&key=CHAVE
+```
+
 ## 💡 Observações
 
 - A consulta é **100% gratuita** via Discord
