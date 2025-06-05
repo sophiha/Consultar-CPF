@@ -1,6 +1,6 @@
-# 🔍 Consulta de CPF ou Nome
+# 🔍 Consulta de CPF ou Nome completo
 
-Um sistema de consulta de CPF ou Nome direto pelo Discord. Rápido, fácil e totalmente **gratuito**
+Um sistema de consulta de CPF ou Nome completo direto pelo Discord. Rápido, fácil e totalmente **gratuito**
 
 [![Entrar no Discord](https://img.shields.io/badge/Entrar%20no%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/3xYsYXZR2y)
 
@@ -12,9 +12,9 @@ Um sistema de consulta de CPF ou Nome direto pelo Discord. Rápido, fácil e tot
 
 ![Preview CPF](https://i.imgur.com/oyuZmF7.png)
 
-**Consulta por Nome**
+**Consulta por Nome completo**
 
-![Preview Nome](https://i.imgur.com/b0WXiei.png)
+![Preview Nome completo](https://i.imgur.com/b0WXiei.png)
 
 ---
 
@@ -22,17 +22,17 @@ Um sistema de consulta de CPF ou Nome direto pelo Discord. Rápido, fácil e tot
 
 Para realizar consultas, utilize os seguintes endpoints:
 
-**Consulta por Nome**
+**Consulta por Nome completo**
 
 ```
-GET http:/18.230.70.34/?tipo=nome&valor=maria&key=CHAVE
-GET http:/18.230.70.34/?tipo=nome&valor=maria&idade=100&key=CHAVE (idade é opcional)
+GET http:/18.230.70.34/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&key=CHAVE
+GET http:/18.230.70.34/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&idade=87&key=CHAVE (idade é opcional)
 ```
 
 **Consulta por CPF**
 
 ```
-GET http:/18.230.70.34/?tipo=cpf&valor=12345678910&key=CHAVE
+GET http:/18.230.70.34/?tipo=cpf&valor=11111111111&key=CHAVE
 ```
 
 ## 💡 Observações
