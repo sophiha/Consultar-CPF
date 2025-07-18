@@ -25,14 +25,14 @@ Para realizar consultas, utilize os seguintes endpoints:
 **Consulta por Nome completo**
 
 ```
-GET http:/51.81.22.9:3000/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&key=CHAVE
-GET http:/51.81.22.9:3000/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&idade=87&key=CHAVE (idade é opcional)
+GET http:/135.148.82.193:3000/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&key=CHAVE
+GET http:/135.148.82.193:3000/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&idade=87&key=CHAVE (idade é opcional)
 ```
 
 **Consulta por CPF**
 
 ```
-GET http:/51.81.22.9:3000/?tipo=cpf&valor=11111111111&key=CHAVE
+GET http:/135.148.82.193:3000/?tipo=cpf&valor=11111111111&key=CHAVE
 ```
 
 ## 💡 Observações
