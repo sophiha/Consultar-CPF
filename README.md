@@ -26,7 +26,7 @@ Para realizar consultas, utilize os seguintes endpoints:
 
 ```
 GET http:/51.81.22.2:3000/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&key=CHAVE
-GET http:/51.81.22.2.193:3000/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&idade=87&key=CHAVE (idade é opcional)
+GET http:/51.81.22.2:3000/?tipo=nome&valor=GLEDE BERNACCI GOLLUSCIO&idade=87&key=CHAVE (idade é opcional)
 ```
 
 **Consulta por CPF**
